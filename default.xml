@@ -46,6 +46,7 @@
   <project path="device/motorola/backflip" name="CyanogenMod/android_device_motorola_backflip" remote="github" revision="master" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" remote="github" />
   <project path="device/motorola/umts_sholes" name="milaq/android_device_motorola_umts_sholes" remote="github" />
+  <project path="device/motorola/sholest" name="Mioze7Ae/android_device_motorola_sholest" remote="github" />
   <project path="device/samsung/bmlunlock" name="CyanogenMod/android_device_samsung_bmlunlock" remote="github" revision="master" />
   <project path="device/samsung/herring" name="CyanogenMod/android_device_samsung_herring" remote="github" />
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
@@ -227,6 +228,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
   <project path="system/wlan/ti" name="nadlabak/android_system_wlan_ti" remote="github" revision="gingerbread" />
   <project path="vendor/motorola/umts_sholes" name="milaq/android_vendor_motorola_umts_sholes" remote="github" />
+  <project path="vendor/motorola/sholest" name="Mioze7Ae/android_vendor_motorola_sholest" remote="github" />
   <project path="vendor/cyanogen" name="milaq/android_vendor_cyanogen" remote="github" />
 
   <project path="android" name="CyanogenMod/android" remote="github" />

@@ -156,7 +156,7 @@
   <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
   <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
-  <project path="hardware/ti/omap3" name="Mioze7Ae/android_hardware_ti_omap3" remote="github" />
+  <project path="hardware/ti/omap3" name="nadlabak/android_hardware_ti_omap3" remote="github" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
 
   <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.35-froyo-stable" />

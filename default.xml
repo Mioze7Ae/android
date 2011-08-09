@@ -145,7 +145,7 @@
   <project path="frameworks/base" name="Mioze7Ae/android_frameworks_base" remote="github" />
   <project path="frameworks/ex" name="platform/frameworks/ex" revision="gingerbread"/>
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
-  <project path="frameworks/policies/base" name="CyanogenMod/android_frameworks_policies_base" remote="github" />
+  <project path="frameworks/policies/base" name="milaq/android_frameworks_policies_base" remote="github" />
 
   <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
@@ -171,6 +171,7 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="milaq/android_packages_apps_Camera" remote="github" revision="froyo" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/CMScreenshot" name="milaq/android_packages_apps_CMScreenshot" remote="github" revision="gingerbread" />
   <project path="packages/apps/CMParts" name="milaq/android_packages_apps_CMParts" remote="github" revision="froyo-stable" />
   <project path="packages/apps/CMPartsHelper" name="CyanogenMod/android_packages_apps_CMPartsHelper" remote="github" />
   <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" remote="github" />
@@ -222,7 +223,7 @@
   <project path="prebuilt" name="platform/prebuilt" revision="master" />
   <project path="sdk" name="platform/sdk"  revision="tools_r6"/>
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" />
-  <project path="system/core" name="nadlabak/android_system_core" remote="github" />
+  <project path="system/core" name="milaq/android_system_core" remote="github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" />
@@ -231,6 +232,6 @@
   <project path="vendor/motorola/sholest" name="Mioze7Ae/android_vendor_motorola_sholest" remote="github" />
   <project path="vendor/cyanogen" name="Mioze7Ae/android_vendor_cyanogen" remote="github" />
 
-  <project path="android" name="CyanogenMod/android" remote="github" />
+  <project path="android" name="Mioze7Ae/android" remote="github" />
 
 </manifest>

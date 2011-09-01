@@ -81,7 +81,6 @@
   <project name="CyanogenMod/android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="724f488c5fc5e187fc90ad670251be11c99b0014"/>
   <project name="CyanogenMod/android_packages_apps_Superuser" path="packages/apps/Superuser" remote="github" revision="c93c35176710985c31d028759763af8e848d1e22"/>
   <project name="CyanogenMod/android_packages_apps_TSCalibration" path="packages/apps/TSCalibration" remote="github" revision="eba1bfcaa3637ec6862131de0c02cb669c5babfc"/>
-  <project name="CyanogenMod/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="e21aa4d53f11ed1c39d0a512d2e6944de824751c"/>
   <project name="CyanogenMod/android_packages_apps_VoiceDialer" path="packages/apps/VoiceDialer" remote="github" revision="7f2265063dddf77aa53eae40ebefe7bbf75066a5"/>
   <project name="CyanogenMod/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" remote="github" revision="75cfb5d5cfbee6ee9538f902fede047c9f45687d"/>
   <project name="CyanogenMod/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="github" revision="13d1110cb8aca41e07494cc37da204e755c7883a"/>
@@ -92,7 +91,7 @@
   <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="d4fb5820ca19952690b88700f0e088db42d35242"/>
   <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="c64a4ad3791b67f7576d0a801198d11783f178af"/>
   <project name="CyanogenMod/cm-kernel" path="kernel-msm" remote="github" revision="13f96d51963dc89fa31944673143fb710753d09a"/>
-  <project name="Mioze7Ae/android" path="android" remote="github" revision="d981b2128660f627aadb0f6f487e1666839b349b"/>
+  <project name="Mioze7Ae/android" path="android" remote="github" revision="be4a62f845f2223a0632394e17925dcd5b6a38d2"/>
   <project name="Mioze7Ae/android_build" path="build" remote="github" revision="93a9c326541172746619b3f71a596635f443769b">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
@@ -100,6 +99,7 @@
   <project name="Mioze7Ae/android_external_kernel-headers" path="external/kernel-headers" remote="github" revision="55c03132a3fd8a3b23d286d1fc6b0e3b39cf636a"/>
   <project name="Mioze7Ae/android_frameworks_base" path="frameworks/base" remote="github" revision="062c55d370a93eede38dc1272650a28759b939cf"/>
   <project name="Mioze7Ae/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="44adb08c27cc4d5f28aff0e004d98ec173c96bf7"/>
+  <project name="Mioze7Ae/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="91aa51a67e04a10b11662b25220226f89241014b"/>
   <project name="Mioze7Ae/android_packages_apps_Usb" path="packages/apps/Usb" remote="github" revision="795ba966f648d223a4cd7e19acbd8380bc0e9caa"/>
   <project name="Mioze7Ae/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="7ecac2be77df037abdc3ab92cd3dcb9f598d017b"/>
   <project name="Mioze7Ae/android_vendor_motorola_sholest" path="vendor/motorola/sholest" remote="github" revision="058bb0a71722d47984a0348f76a5e3535ff38438"/>

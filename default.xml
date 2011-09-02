@@ -91,18 +91,18 @@
   <project name="CyanogenMod/android_system_netd" path="system/netd" remote="github" revision="d4fb5820ca19952690b88700f0e088db42d35242"/>
   <project name="CyanogenMod/android_system_vold" path="system/vold" remote="github" revision="c64a4ad3791b67f7576d0a801198d11783f178af"/>
   <project name="CyanogenMod/cm-kernel" path="kernel-msm" remote="github" revision="13f96d51963dc89fa31944673143fb710753d09a"/>
-  <project name="Mioze7Ae/android" path="android" remote="github" revision="be4a62f845f2223a0632394e17925dcd5b6a38d2"/>
+  <project name="Mioze7Ae/android" path="android" remote="github" revision="7f42c5bcefa84535a71f9fd0c16196ccabcef703"/>
   <project name="Mioze7Ae/android_build" path="build" remote="github" revision="93a9c326541172746619b3f71a596635f443769b">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
-  <project name="Mioze7Ae/android_device_motorola_sholest" path="device/motorola/sholest" remote="github" revision="99a1260c4afe120674774c0b0b91eea3d0df511a"/>
+  <project name="Mioze7Ae/android_device_motorola_sholest" path="device/motorola/sholest" remote="github" revision="d588cb0fc4f3c24f11855b0f5e9d0a013ce0bfcc"/>
   <project name="Mioze7Ae/android_external_kernel-headers" path="external/kernel-headers" remote="github" revision="55c03132a3fd8a3b23d286d1fc6b0e3b39cf636a"/>
   <project name="Mioze7Ae/android_frameworks_base" path="frameworks/base" remote="github" revision="062c55d370a93eede38dc1272650a28759b939cf"/>
   <project name="Mioze7Ae/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="44adb08c27cc4d5f28aff0e004d98ec173c96bf7"/>
   <project name="Mioze7Ae/android_packages_apps_Torch" path="packages/apps/Torch" remote="github" revision="91aa51a67e04a10b11662b25220226f89241014b"/>
   <project name="Mioze7Ae/android_packages_apps_Usb" path="packages/apps/Usb" remote="github" revision="795ba966f648d223a4cd7e19acbd8380bc0e9caa"/>
-  <project name="Mioze7Ae/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="7ecac2be77df037abdc3ab92cd3dcb9f598d017b"/>
-  <project name="Mioze7Ae/android_vendor_motorola_sholest" path="vendor/motorola/sholest" remote="github" revision="058bb0a71722d47984a0348f76a5e3535ff38438"/>
+  <project name="Mioze7Ae/android_vendor_cyanogen" path="vendor/cyanogen" remote="github" revision="699e997f25c1c2378a3aa46e694ab6b2fc441f5e"/>
+  <project name="Mioze7Ae/android_vendor_motorola_sholest" path="vendor/motorola/sholest" remote="github" revision="c0fea3855f5b80c28515f150d5e341c4b386676b"/>
   <project name="device/common" revision="d468cbeb023507ce9c0e01e688038b9c56c403e7"/>
   <project name="device/sample" revision="b4b6fced74341091180b10529c509a7f2d9327fe"/>
   <project name="dylex/android_external_rsync" path="external/rsync" remote="github" revision="2a5f5cddd78daecc62b890d307778561aad3366e"/>

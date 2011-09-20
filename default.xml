@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="korg"
-           fetch="git://android.git.kernel.org/"
-           review="review.source.android.com" />
-  <remote name="github" fetch="git://github.com/" review="review.cyanogenmod.com" />
+           fetch="git://github.com/"
+           review="review.cyanogenmod.com" />
+  <remote  name="github"
+           fetch="git://github.com/"
+           review="review.cyanogenmod.com" />
   <default revision="froyo"
            remote="korg" />
 
@@ -13,8 +15,8 @@
 
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
 
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="korg" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="korg" />
+  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="korg" />
+  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="korg" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
 
   <project path="dalvik" name="nadlabak/android_dalvik" remote="github" />
@@ -52,125 +54,125 @@
   <project path="device/samsung/vibrant" name="CyanogenMod/android_device_samsung_vibrant" remote="github" />
   <project path="device/yuhua/x2" name="CyanogenMod/android_device_yuhua_x2" remote="github" />
 
-  <project path="external/alsa-lib" name="platform/external/alsa-lib" remote="korg" />
-  <project path="external/alsa-utils" name="platform/external/alsa-utils" remote="korg" />
-  <project path="external/apache-http" name="platform/external/apache-http" remote="korg" />
-  <project path="external/astl" name="platform/external/astl" remote="korg" />
+  <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" remote="korg" />
+  <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" remote="korg" />
+  <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" remote="korg" />
+  <project path="external/astl" name="CyanogenMod/android_external_astl" remote="korg" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="bash-4.1-froyo" />
-  <project path="external/bison" name="platform/external/bison" remote="korg" />
-  <project path="external/blktrace" name="platform/external/blktrace" remote="korg" />
+  <project path="external/bison" name="CyanogenMod/android_external_bison" remote="korg" />
+  <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" remote="korg" />
   <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="github" />
-  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="korg" />
-  <project path="external/bluetooth/hcidump" name="platform/external/bluetooth/hcidump" remote="korg" />
-  <project path="external/bsdiff" name="platform/external/bsdiff" remote="korg" />
+  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" remote="korg" />
+  <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" remote="korg" />
+  <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" remote="korg" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" />
-  <project path="external/bzip2" name="platform/external/bzip2" remote="korg" />
-  <project path="external/clearsilver" name="platform/external/clearsilver" remote="korg" />
+  <project path="external/bzip2" name="CyanogenMod/android_external_bzip2" remote="korg" />
+  <project path="external/clearsilver" name="CyanogenMod/android_external_clearsilver" remote="korg" />
   <project path="external/compcache" name="CyanogenMod/android_external_compcache" revision="master" remote="github" />
-  <project path="external/dbus" name="platform/external/dbus" remote="korg" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" remote="korg" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" remote="korg" />
+  <project path="external/dbus" name="CyanogenMod/android_external_dbus" remote="korg" />
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="korg" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" remote="korg" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" revision="master" remote="github" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" revision="master" remote="github" />
-  <project path="external/easymock" name="platform/external/easymock" remote="korg" />
-  <project path="external/elfcopy" name="platform/external/elfcopy" remote="korg" />
-  <project path="external/elfutils" name="platform/external/elfutils" remote="korg" />
-  <project path="external/embunit" name="platform/external/embunit" remote="korg" />
-  <project path="external/emma" name="platform/external/emma" remote="korg" />
-  <project path="external/esd" name="platform/external/esd" remote="korg" />
-  <project path="external/expat" name="platform/external/expat" remote="korg" />
-  <project path="external/fdlibm" name="platform/external/fdlibm" remote="korg" />
+  <project path="external/easymock" name="CyanogenMod/android_external_easymock" remote="korg" />
+  <project path="external/elfcopy" name="CyanogenMod/android_external_elfcopy" remote="korg" />
+  <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" remote="korg" />
+  <project path="external/embunit" name="CyanogenMod/android_external_embunit" remote="korg" />
+  <project path="external/emma" name="CyanogenMod/android_external_emma" remote="korg" />
+  <project path="external/esd" name="CyanogenMod/android_external_esd" remote="korg" />
+  <project path="external/expat" name="CyanogenMod/android_external_expat" remote="korg" />
+  <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" remote="korg" />
   <project path="external/flac" name="kruton/android_external_flac" revision="master" remote="github" />
-  <project path="external/freetype" name="platform/external/freetype" remote="korg" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" remote="korg" />
-  <project path="external/genext2fs" name="platform/external/genext2fs" remote="korg" />
-  <project path="external/giflib" name="platform/external/giflib" remote="korg" />
-  <project path="external/grub" name="platform/external/grub" remote="korg" />
-  <project path="external/gtest" name="platform/external/gtest" remote="korg" />
-  <project path="external/guava" name="platform/external/guava" remote="korg" />
-  <project path="external/icu4c" name="platform/external/icu4c" remote="korg" />
-  <project path="external/iproute2" name="platform/external/iproute2" remote="korg" />
-  <project path="external/ipsec-tools" name="platform/external/ipsec-tools" remote="korg" />
+  <project path="external/freetype" name="CyanogenMod/android_external_freetype" remote="korg" />
+  <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="korg" />
+  <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" remote="korg" />
+  <project path="external/giflib" name="CyanogenMod/android_external_giflib" remote="korg" />
+  <project path="external/grub" name="CyanogenMod/android_external_grub" remote="korg" />
+  <project path="external/gtest" name="CyanogenMod/android_external_gtest" remote="korg" />
+  <project path="external/guava" name="CyanogenMod/android_external_guava" remote="korg" />
+  <project path="external/icu4c" name="CyanogenMod/android_external_icu4c" remote="korg" />
+  <project path="external/iproute2" name="CyanogenMod/android_external_iproute2" remote="korg" />
+  <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" remote="korg" />
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" revision="master" remote="github" />
-  <project path="external/jdiff" name="platform/external/jdiff" remote="korg" />
-  <project path="external/jhead" name="platform/external/jhead" remote="korg" />
+  <project path="external/jdiff" name="CyanogenMod/android_external_jdiff" remote="korg" />
+  <project path="external/jhead" name="CyanogenMod/android_external_jhead" remote="korg" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" remote="github" />
-  <project path="external/jsr305" name="platform/external/jsr305" remote="korg" />
-  <project path="external/junit" name="platform/external/junit" remote="korg" />
+  <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" remote="korg" />
+  <project path="external/junit" name="CyanogenMod/android_external_junit" remote="korg" />
   <project path="external/kernel-headers" name="Mioze7Ae/android_external_kernel-headers" remote="github" />
-  <project path="external/libffi" name="platform/external/libffi" remote="korg" />
+  <project path="external/libffi" name="CyanogenMod/android_external_libffi" remote="korg" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="libncurses-5.7-froyo" />
-  <project path="external/libpcap" name="platform/external/libpcap" remote="korg" />
+  <project path="external/libpcap" name="CyanogenMod/android_external_libpcap" remote="korg" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" />
-  <project path="external/libxml2" name="platform/external/libxml2" remote="korg" />
+  <project path="external/libxml2" name="CyanogenMod/android_external_libxml2" remote="korg" />
   <project path="external/lzo" name="fries/android-external-liblzo" revision="master" remote="github" />
   <project path="external/mtpd" name="CyanogenMod/android_external_mtpd" remote="github" />
   <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="nano-2.2.4-froyo" />
-  <project path="external/netcat" name="platform/external/netcat" remote="korg" />
-  <project path="external/netperf" name="platform/external/netperf" remote="korg" />
-  <project path="external/neven" name="platform/external/neven" remote="korg" />
+  <project path="external/netcat" name="CyanogenMod/android_external_netcat" remote="korg" />
+  <project path="external/netperf" name="CyanogenMod/android_external_netperf" remote="korg" />
+  <project path="external/neven" name="CyanogenMod/android_external_neven" remote="korg" />
   <project path="external/opencore" name="CyanogenMod/android_external_opencore" remote="github" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" remote="github" />
   <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="github" revision="master" />
-  <project path="external/oprofile" name="platform/external/oprofile" remote="korg" />
-  <project path="external/ping" name="platform/external/ping" remote="korg" />
-  <project path="external/ppp" name="platform/external/ppp" remote="korg" />
-  <project path="external/proguard" name="platform/external/proguard" remote="korg" />
-  <project path="external/qemu" name="platform/external/qemu" remote="korg" revision="tools_r6"/>
-  <project path="external/quake" name="platform/external/quake" remote="korg" />
+  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="korg" />
+  <project path="external/ping" name="CyanogenMod/android_external_ping" remote="korg" />
+  <project path="external/ppp" name="CyanogenMod/android_external_ppp" remote="korg" />
+  <project path="external/proguard" name="CyanogenMod/android_external_proguard" remote="korg" />
+  <project path="external/qemu" name="CyanogenMod/android_external_qemu" remote="korg" revision="tools_r6"/>
+  <project path="external/quake" name="CyanogenMod/android_external_quake" remote="korg" />
   <project path="external/rsync" name="dylex/android_external_rsync" remote="github" revision="master" />
-  <project path="external/safe-iop" name="platform/external/safe-iop" remote="korg" />
+  <project path="external/safe-iop" name="CyanogenMod/android_external_safe-iop" remote="korg" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" remote="github" />
-  <project path="external/sonivox" name="platform/external/sonivox" remote="korg" />
-  <project path="external/speex" name="platform/external/speex" remote="korg" />
-  <project path="external/sqlite" name="platform/external/sqlite" remote="korg" />
-  <project path="external/srec" name="platform/external/srec" remote="korg" />
-  <project path="external/stlport" name="platform/external/stlport" remote="korg" revision="master" />
+  <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" remote="korg" />
+  <project path="external/speex" name="CyanogenMod/android_external_speex" remote="korg" />
+  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" remote="korg" />
+  <project path="external/srec" name="CyanogenMod/android_external_srec" remote="korg" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="korg" revision="master" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" />
-  <project path="external/svox" name="platform/external/svox" remote="korg" />
-  <project path="external/tagsoup" name="platform/external/tagsoup" remote="korg" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" remote="korg" />
-  <project path="external/tinyxml" name="platform/external/tinyxml" remote="korg" />
+  <project path="external/svox" name="CyanogenMod/android_external_svox" remote="korg" />
+  <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" remote="korg" />
+  <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" remote="korg" />
+  <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" remote="korg" />
   <project path="external/tslib" name="CyanogenMod/android_external_tslib" remote="github" />
-  <project path="external/tremolo" name="platform/external/tremolo" remote="korg" />
+  <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" remote="korg" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" remote="github" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" />
   <project path="external/wireless-tools" name="CyanogenMod/android_external_wireless-tools" remote="github" revision="master" />
   <project path="external/wpa_supplicant" name="CyanogenMod/android_external_wpa_supplicant" remote="github" />
   <project path="external/wpa_supplicant_6" name="nadlabak/android_external_wpa_supplicant_6" remote="github" revision="gingerbread" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="korg" />
+  <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" remote="korg" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" />
-  <project path="external/zlib" name="platform/external/zlib" remote="korg" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="korg" />
 
   <project path="frameworks/base" name="Mioze7Ae/android_frameworks_base" remote="github" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" remote="korg" revision="gingerbread"/>
-  <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" remote="korg" />
+  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" remote="korg" revision="gingerbread"/>
+  <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" remote="korg" />
   <project path="frameworks/policies/base" name="milaq/android_frameworks_policies_base" remote="github" />
 
-  <project path="hardware/alsa_sound" name="platform/hardware/alsa_sound" remote="korg" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" remote="korg" />
+  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" remote="korg" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="korg" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" />
   <project path="hardware/libhardware_legacy" name="Mioze7Ae/android_hardware_libhardware_legacy" remote="github" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" remote="korg" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="korg" />
   <project path="hardware/qcom/mm-core" name="CyanogenMod/android_hardware_qcom_mm-core" remote="github" />
   <project path="hardware/qcom/mm-video" name="CyanogenMod/android_hardware_qcom_mm-video" remote="github" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" />
   <project path="hardware/ti/omap3" name="nadlabak/android_hardware_ti_omap3" remote="github" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" remote="korg" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="korg" />
 
   <project path="kernel-msm" name="CyanogenMod/cm-kernel" remote="github" revision="android-msm-2.6.35-froyo-stable" />
 
-  <project path="ndk" name="platform/ndk" remote="korg" revision="master" />
+  <project path="ndk" name="CyanogenMod/android_ndk" remote="korg" revision="master" />
 
-  <project path="packages/apps/AccountsAndSyncSettings" name="platform/packages/apps/AccountsAndSyncSettings" remote="korg" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" remote="korg" />
   <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" remote="github" revision="master" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" />
-  <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="korg" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="korg" />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="korg" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="korg" />
   <project path="packages/apps/Camera" name="milaq/android_packages_apps_Camera" remote="github" revision="froyo" />
-  <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="korg" />
+  <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" remote="korg" />
   <project path="packages/apps/CMScreenshot" name="milaq/android_packages_apps_CMScreenshot" remote="github" revision="gingerbread" />
   <project path="packages/apps/CMParts" name="milaq/android_packages_apps_CMParts" remote="github" revision="froyo-stable" />
   <project path="packages/apps/CMPartsHelper" name="CyanogenMod/android_packages_apps_CMPartsHelper" remote="github" />
@@ -182,47 +184,47 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" />
   <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" remote="github" revision="master" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="korg" />
+  <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" remote="korg" />
   <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" />
-  <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="korg" />
-  <project path="packages/apps/IM" name="platform/packages/apps/IM" remote="korg" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" remote="korg" />
+  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" remote="korg" />
+  <project path="packages/apps/IM" name="CyanogenMod/android_packages_apps_IM" remote="korg" />
+  <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" remote="korg" />
   <project path="packages/apps/ADWLauncher" name="nadlabak/android_packages_apps_ADWLauncher" remote="github" revision="gingerbread" />
   <project path="packages/apps/Mms" name="nadlabak/android_packages_apps_Mms" remote="github" />
   <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" remote="korg" />
+  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="korg" />
   <project path="packages/apps/Phone" name="milaq/android_packages_apps_Phone" remote="github" />
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" remote="github" />
-  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="korg" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="korg" />
+  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="korg" />
+  <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" remote="korg" />
   <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" remote="github" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" remote="korg" />
+  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="korg" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="master" />
   <project path="packages/apps/Torch" name="Mioze7Ae/android_packages_apps_Torch" remote="github" revision="froyo" />
   <project path="packages/apps/Usb" name="Mioze7Ae/android_packages_apps_Usb" remote="github" revision="rewrite" />
   <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" />
-  <project path="packages/experimental" name="platform/packages/experimental" remote="korg" />
+  <project path="packages/experimental" name="CyanogenMod_android_packages_experimental" remote="korg" />
   <project path="packages/inputmethods/LatinIME" name="nadlabak/android_packages_inputmethods_LatinIME" remote="github" revision="gingerbread" />
-  <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" remote="korg" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" remote="korg" />
-  <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" remote="korg" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="korg" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" remote="korg" />
+  <project path="packages/inputmethods/OpenWnn" name="CyanogenMod_android_packages_inputmethods/OpenWnn" remote="korg" />
+  <project path="packages/inputmethods/PinyinIME" name="CyanogenMod_android_packages_inputmethods/PinyinIME" remote="korg" />
+  <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" remote="korg" />
+  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="korg" />
+  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="korg" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="github" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" remote="korg" />
-  <project path="packages/providers/GoogleContactsProvider" name="platform/packages/providers/GoogleContactsProvider" remote="korg" />
+  <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" remote="korg" />
+  <project path="packages/providers/GoogleContactsProvider" name="CyanogenMod/android_packages_providers_GoogleContactsProvider" remote="korg" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" remote="github" />
-  <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" remote="korg" />
-  <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" remote="korg" />
+  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="korg" />
+  <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" remote="korg" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" />
-  <project path="packages/wallpapers/LivePicker" name="platform/packages/wallpapers/LivePicker" remote="korg" />
+  <project path="packages/wallpapers/LivePicker" name="CyanogenMod_android_packages_wallpapers_LivePicker" remote="korg" />
   <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" remote="github" />
-  <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="korg" />
+  <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod_android_packages_wallpapers_MusicVisualization" remote="korg" />
 
-  <project path="prebuilt" name="platform/prebuilt" remote="korg" revision="master" />
-  <project path="sdk" name="platform/sdk" remote="korg" revision="tools_r6"/>
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="korg" revision="master" />
+  <project path="sdk" name="CyanogenMod/android_sdk" remote="korg" revision="tools_r6"/>
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" />
   <project path="system/core" name="milaq/android_system_core" remote="github" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" />

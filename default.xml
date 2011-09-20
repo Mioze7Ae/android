@@ -187,7 +187,7 @@
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" remote="korg" />
   <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" remote="github" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" remote="korg" />
-  <project path="packages/apps/IM" name="CyanogenMod/android_packages_apps_IM" remote="korg" />
+  <project path="packages/apps/IM" name="android/platform_packages_apps_im" remote="korg" />
   <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" remote="korg" />
   <project path="packages/apps/ADWLauncher" name="nadlabak/android_packages_apps_ADWLauncher" remote="github" revision="gingerbread" />
   <project path="packages/apps/Mms" name="nadlabak/android_packages_apps_Mms" remote="github" />

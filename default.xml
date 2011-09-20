@@ -205,7 +205,7 @@
   <project path="packages/apps/Usb" name="Mioze7Ae/android_packages_apps_Usb" remote="github" revision="rewrite" />
   <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" remote="github" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" />
-  <project path="packages/experimental" name="CyanogenMod_android_packages_experimental" remote="korg" />
+  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" remote="korg" />
   <project path="packages/inputmethods/LatinIME" name="nadlabak/android_packages_inputmethods_LatinIME" remote="github" revision="gingerbread" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod_android_packages_inputmethods/OpenWnn" remote="korg" />
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod_android_packages_inputmethods/PinyinIME" remote="korg" />

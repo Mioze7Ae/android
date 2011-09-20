@@ -22,9 +22,9 @@
   <project path="dalvik" name="nadlabak/android_dalvik" remote="github" />
   <project path="development" name="CyanogenMod/android_development" remote="github" />
 
-  <project path="device/common" name="device/common" remote="korg" />
+  <project path="device/common" name="CyanogenMod/android_device_common" remote="korg" />
   <project path="device/generic" name="CyanogenMod/android_device_generic" remote="github" />
-  <project path="device/sample" name="device/sample" remote="korg" />
+  <project path="device/sample" name="CyanogenMod/android_device_sample" remote="korg" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" remote="github" revision="master" />
   <project path="device/geeksphone/one" name="CyanogenMod/android_device_geeksphone_one" remote="github" />
   <project path="device/htc/ace" name="CyanogenMod/android_device_htc_ace" remote="github" />

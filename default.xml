@@ -204,7 +204,7 @@
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
-  <project path="external/v8" name="CyanogenMod/android_external_v8" />
+  <project path="external/v8" name="CyanogenModXT720/android_external_v8" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" revision="master" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" />
   <project path="external/webp" name="CyanogenMod/android_external_webp" revision="master" />

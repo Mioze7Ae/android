@@ -75,7 +75,7 @@
   <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
   <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" />
-  <project path="device/motorola/sholest" name="Mioze7Ae/android_device_motorola_sholest" />
+  <project path="device/motorola/sholest" name="CyanogenModXT720/android_device_motorola_sholest" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
@@ -162,7 +162,7 @@
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" />
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
-  <project path="external/kernel-headers" name="Mioze7Ae/android_external_kernel-headers" />
+  <project path="external/kernel-headers" name="CyanogenModXT720/android_external_kernel-headers" />
   <project path="external/libexif" name="CyanogenMod/android_external_libexif" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" />
   <project path="external/libgsm" name="CyanogenMod/android_external_libgsm" />

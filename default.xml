@@ -76,6 +76,7 @@
   <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" />
   <project path="device/motorola/sholest" name="CyanogenModXT720/android_device_motorola_sholest" />
+  <project path="device/motorola/umts_sholes" name="nadlabak/android_device_motorola_umts_sholes" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" />
   <project path="device/motorola/zeppelin" name="CyanogenMod/android_device_motorola_zeppelin" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" />
